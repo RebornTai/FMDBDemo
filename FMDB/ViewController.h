@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FMDatabase.h"
+
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,assign)int studentId;
+@property(nonatomic,strong)NSString *name;
+@property(nonatomic,strong)NSString *sex;
+@property(nonatomic,assign)int age;
 
 @end
 
